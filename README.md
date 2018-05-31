@@ -1,2 +1,8 @@
-# chenxuexi.github.io
-陈雪夕个人主页
+# 此页项目使用说明
+此项目是个人网页，主要用于学习交流等，请大家多支持！
+
+
+## 前往主页
+[前往主页](https://chenxuexi.github.io)
+
+
