@@ -11,18 +11,17 @@
 			margin: 0;
 			padding:0;
 		}
-		html body div{
+		html,body,div{
 			margin: 0;
 			padding:0;
 		}
+
 		#author{
 			position: absolute;
 			width:100%;
 			text-align: right;
 			bottom:18px;
 			right:18px;
-
-
 		}
 
 		#author span{
@@ -32,17 +31,34 @@
 			border-bottom:1px solid #6699cc;
 			font-size: 16px;
 
+			background-color:#fff;
 		}
 
 		a{
 			text-decoration: none;
 		}
 
+		img{
+			width:100%;
+			max-width:100%;
+			height:auto;
+		}
+
+		#user{
+			line-height:20px;position:absolute;width:100%;
+			text-align:center;margin:0 auto;
+			top:30%;background-color:#6699cc;color:#fff;font-weight:bold;
+		}
+		#user marquee{
+		}
+
 	</style>
 </head>
 <body>
-	<div style='width:100%;text-align:center;margin:0 auto;'>
-		<h2>我是陈雪夕 ，谢谢大家光临！</h2>
+
+	<img src="a4.jpg">
+	<div id='user'>
+		<marquee>我是陈雪夕 ，谢谢大家光临！</marquee>
 	</div>
 
 
@@ -52,3 +68,10 @@
 	</div>
 </body>
 </html>
+<script type="text/javascript">
+setTimeout(function(){
+	var user = document.getElementById('user');
+	user.style.display='none';
+},10000);
+
+</script>
